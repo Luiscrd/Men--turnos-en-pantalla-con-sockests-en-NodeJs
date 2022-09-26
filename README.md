@@ -1,5 +1,11 @@
 # Socket Server Basico
+## Project setup
+```
+npm install
+```
 
-Un servidor de Websockets usando Node, Express y Socket.io
+## Init Projects
+```
+npm start
+```
 
-Temas cubiertos en mi curso de Node de cero a experto
