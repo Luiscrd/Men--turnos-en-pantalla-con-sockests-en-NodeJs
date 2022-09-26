@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nuevo Ticket</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td>
+                <span id="lblNuevoTicket">
+                    Introduzca Tarjeta...
+                </span>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td>
+                <form action="/signup" method="post" id="signup">
+                <span id="lblFormTiket">
+                    <div class="mb-3 form-tiket">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre Compreto</label>
+                        <input name="nombre" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
+                      </div>
+                      <div class="mb-3 form-tiket">
+                        <label for="exampleFormControlTextarea1" class="form-label">Motivo</label>
+                        <textarea name="motivo" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Motivo" required></textarea>
+                      </div>
+                      <select name="sala" class="form-select form-tiket" aria-label="Default select example">
+                        <option selected>Seleccione sala</option>
+                        <option value="1">Sala 1</option>
+                        <option value="2">Sala 2</option>
+                        <option value="3">Sala 3</option>
+                      </select>
+                </span>
+            </td>
+        </tr> -->
+        <tr>
+            <td>
+                <button id="btnNuevoTicket" class="btn btn-secondary btn-lg" type="submit">
+                    Generar nuevo ticket
+                </button>
+            <!-- </form> -->
+            </td>
+        </tr>
+    </table>
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./js/nuevo-ticket.js"></script>
+
+</body>
+
+</html>
